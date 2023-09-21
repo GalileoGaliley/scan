@@ -1,0 +1,10 @@
+.birthday {
+  &__input-container {
+    display: flex;
+    flex-direction: row;
+    width: 490px;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+}

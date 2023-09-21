@@ -1,0 +1,13 @@
+.go-back {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 20px;
+
+  &__button-container {
+    transform: rotate(180deg);
+  }
+}

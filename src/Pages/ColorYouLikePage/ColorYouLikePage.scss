@@ -1,0 +1,44 @@
+.color-you-like {
+  .mini-title {
+    margin-bottom: 30px;
+  }
+
+  .button {
+    margin-top: 15px;
+    justify-content: left;
+    padding-left: 25px;
+    gap: 25px;
+  }
+
+  .button-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+
+    &_red {
+      background-color: rgb(255, 87, 88);
+    }
+
+
+    &_yellow {
+      background-color: rgb(255, 247, 61);
+    }
+
+    &_blue {
+      background-color: rgb(6, 111, 222);
+    }
+
+    &_orange {
+      background-color: rgb(255, 168, 0);
+    }
+
+    &_green {
+      background-color: rgb(117, 219, 156);
+    }
+
+    &_violet {
+      background-color: rgb(151, 71, 255);
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.guidance-plan {
+  &__title {
+    color: #191f2d;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    width: 490px;
+  }
+
+  &__button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    width: 90%;
+  }
+}

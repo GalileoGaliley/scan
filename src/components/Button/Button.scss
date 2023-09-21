@@ -1,0 +1,47 @@
+.button {
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  height: 60px;
+  cursor: pointer;
+  transition: all linear 300ms;
+  background-color: #066fde;
+  position: relative;
+
+  &_active {
+
+  }
+
+  &_inactive {
+    background-color: #eff2fd !important;
+
+    .button__title {
+      color: #000 !important;
+    }
+  }
+
+  &__disabled {
+    opacity: .5;
+  }
+
+  &__enabled {
+    &:hover {
+      background-color: #0764c9;
+    }
+  }
+
+  &__title {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .button {
+    max-width: 300px;
+  }
+}
