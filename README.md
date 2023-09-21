@@ -1,0 +1,2 @@
+# scan
+horoscope/hend-scan
